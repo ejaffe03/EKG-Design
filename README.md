@@ -9,3 +9,4 @@ Then we went into the AC coupling to remove drift from much smaller frequency ba
 For the second differential amplifier we used a resistor value of 610kohms, with a rail of -6V to 6V, and a ref value of 3V. This output gave us a clear signal between 0 to 5V, which is ideal for an analog input to an arduino.
 
 Other Notes: Although we did not test multiple electrodes we found the electrodes we did use were highly impacted by level of contact with skin. They were also impacted by surrounding noise so be sure to try inital tests in low noise surroundings. The butterworth filter we used was 2nd order, although you may replace all 3 with one 6th order butterworth filter for similar results, although we found the multiple, simpler lower order low pass filters easier to adjust. 
+For more information, check out the final presentation on this project at this link: https://docs.google.com/presentation/d/1ieznO6HPBW98dYtP-OkzMkAfX3Gt_auT-4N10zN17pA/edit?usp=sharing
